@@ -1,0 +1,14 @@
+print('Escolha a opção que gostaria de calcular:')
+
+valor=float(input('Digite a temperatura'))
+
+opçoes=input('Escolha a opção que deseja realizar:\n (A) Calcular em Fahrenheit \n (B) Calcular em Celsius')
+
+if opçoes=="a":
+    fahr= (valor * 1.8) + 32
+    print('{} em Fahrenheit é {:.1f}'.format(valor, fahr))
+elif opçoes =="b":
+    fahr= (valor - 32)/ 1.8
+    print('{} em Celsius  é {: .1f} °C '.format(valor, fahr))
+
+
